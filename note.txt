@@ -1,0 +1,58 @@
+#journals
+#conferences
+
+conferences
+b,c,d
+
+jornal
+e,f,g
+
+fakultas all
+default all year
+publi check -> 
+
+icon journal/seminar beda, nama tahun title orang
+
+note
+top tidak bisa pertahun karena tidak menyimpan db tahun
+slide pub tdk bisa download krn tdk ada file
+
+
+1. breadcumb
+2. ubah db ke index lucene
+3. expertise area->tag,category publikasi
+4. icon tdk ada untuk pub
+5. pindah data publikasi 
+
+
+
+
+
+1. expert doctor dan guru besar
+2. exp area kualifikasi_dosen
+3. buat tabel baru tran_kegiatan_dosen_tetap untuk menampung riwayat yg koderiwayat(2) tapi bukan jabatan
+4. tab aktivitas, pendidikan
+
+1. Kode pengarang tran_publikasi_dosen_tetap tidak ada
+2. Dipublikasi di tidak ada keterangan, pengarang, riset
+3. Sudah buat tabel baru tref_detail_publikasi untuk media_publikasi
+4. Bidang penelitian belum ada(riset)
+
+
+
+Sidebar not working
+1. Teknik Elektro (fix)
+2. Teknik Material Metalurgi (tidak ada dosen)
+3. Manajemen bisnis (tidak ada di database)
+4. Multimedia jaringan (tidak ada di database)
+5. Teknik Geofisika (tidak ada di database)
+6. Pasca
+
+
+1. tran_kualifikasi_dosen merapikan nip
+2. tran_kualifikasi_dosen merapikan kode_kualifikasi yg sama, menghapus yg kosong
+3. nama file material ditambahi nip
+
+
+1. Pensiun bg warna berbeda
+2. Latest publication menampilkan chart jumlah seminar/jumlah jurnal

@@ -1,0 +1,174 @@
+/* 
+    Document   : private
+    Created on : Jun 28, 2013, 3:48:21 PM
+    Author     : Ahmad Ibrahim
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.inner{
+    width: 120px;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    color: red;
+}
+root { 
+    display: block;
+}
+.bold {
+    font-style: oblique;
+}
+.bg-flower{
+    background-image: url(../images/flowers.png);
+}
+.bg-flower-two{
+    background-image: url(../images/real_cf.png);
+}
+.bg-flower-three{
+    background-image: url(../images/diagmonds.png);
+}
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #2d2d2d;
+  -webkit-box-shadow: 3px 3px 5px 6px #2d2d2d;
+  box-shadow:         3px 3px 5px 6px #2d2d2d;
+}
+.shadow-two {
+  -moz-box-shadow:    0px 0px 2px 3px #2d2d2d;
+  -webkit-box-shadow: 0px 0px 2px 3px #2d2d2d;
+  box-shadow:         0px 0px 2px 3px #2d2d2d;
+}
+.shadow-three {
+  -moz-box-shadow:    3px 3px 4px 2px #2d2d2d;
+  -webkit-box-shadow: 3px 3px 4px 2px #2d2d2d;
+  box-shadow:         3px 3px 4px 2px #2d2d2d;
+}
+.font-type-1{
+    font-weight: 900; 
+}
+.left-span{
+    float: left;
+}
+.right-span{
+    float: right;
+}
+.center-span{
+    text-align: center;
+}
+.right-span-text{
+    text-align: right;
+}
+.left-span-text{
+    text-align: left;
+}
+.outline-blueDark{
+   outline-color:  #2b5797;
+}
+.color-white{
+    color: #fff;
+}
+.span1-1s{
+    width: 135px;
+}
+
+/* Tag cloud */
+
+	#tags ul{
+		margin:1em 0;
+		padding:.5em 10px;
+		text-align:center;
+		background:#71b5e9 url(bg_tags.gif) repeat-x;		
+		}
+	#tags li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		display:inline;
+		}
+	#tags li a{
+		text-decoration:none;
+		color:#fff;
+		padding:0 2px;	
+		}
+	#tags li a:hover{	
+		color:#cff400;
+		}		
+	
+	.tag1{font-size:100%;}
+	.tag2{font-size:120%;}
+	.tag3{font-size:140%;}
+	.tag4{font-size:160%;}
+	.tag5{font-size:180%;}
+	
+	/* alternative layout */
+
+	#tags .alt{
+		text-align:left;
+		padding:0;
+		background:none;
+		}
+	#tags .alt li{
+		padding:2px 10px;
+		background:#efefef;
+		display:block;
+		}
+	#tags .alt .tag1, 
+	#tags .alt .tag2, 
+	#tags .alt .tag3, 
+	#tags .alt .tag4, 
+	#tags .alt .tag5{font-size:100%;}
+	#tags .alt .tag1{background:#7cc0f4;}
+	#tags .alt .tag2{background:#67abe0;}
+	#tags .alt .tag3{background:#4d92c7;}
+	#tags .alt .tag4{background:#3277ad;}
+	#tags .alt .tag5{background:#266ca2;}
+	
+	.btn{display:block;}
+	
+/* // Tag cloud */
+
+
+
+  #crumbs li {
+   float:left;
+   color:#fff;
+   padding-left:.75em;
+   }  
+  #crumbs li a {
+   display:block;
+   padding:0 15px 0 0;
+   }       
+  #crumbs li a:link,
+  #crumbs li a:visited {
+   color:#fff;
+   text-decoration:none;
+   } 
+  a:link, a:visited, 
+  #crumbs li a:hover,
+  #crumbs li a:focus {
+   color:#dd2c0d;
+   }
+#crumbs li:not(:first-child):before { 
+    content: "";
+    border-color: transparent #fff;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.95em;
+    position: relative;
+}
+#crumbs li {
+    list-style:none;
+   }
+   #crumbs li:not(:first-child){
+       margin-top:  -7.8px;
+   }
+   #departments{
+       margin-top: 2px;
+   }
+   #sidebar li {
+    list-style:none;
+   }
